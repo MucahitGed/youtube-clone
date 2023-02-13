@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;    
+}
+.Search{
+    /* height: 100px;  be careful */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-navbar{
+    margin-left: 20px;
+  }
+  .searchForm{
+    margin-left: 500px; /* gonna responsive*/
+    margin-top: 22.5px; 
+  }
+  .form{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 50rem;
+    height: 3.2rem;
+  }
+  .input{
+    width: 90%;
+    height: 95%;
+    outline: none;
+    z-index: 1000;
+    background-color: var(--white);
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 10px;
+  }
+  .form button{
+    position: absolute;
+    right: 5px;
+    height: 100%;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: #dc2f2f;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    font-size: 1.6rem;
+  }
+  
+  @media screen and (max-width: 1679px) and (min-width: 1200px) {
+    html{
+        font-size: 8px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .Search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .header-navbar{
+        margin-left: 20px;
+      }
+      .searchForm{
+        margin-left: 500px; /* gonna responsive*/
+        margin-top: 22.5px; 
+      }
+      .form{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 30rem; /*gonna responsive*/
+        height: 3.2rem;
+      }
+      .input{
+        width: 90%;
+        height: 95%;
+        outline: none;
+        z-index: 1000;
+        background-color: var(--white);
+        border: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-left: 10px;
+      }
+}

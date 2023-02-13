@@ -1,0 +1,100 @@
+/* @media (min-witdh: 1680px) and (max-witdh: 1920px){
+    html{
+        font-size: 9px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .Search{
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .header-navbar{
+        margin-left: 20px;
+      }
+      .searchForm{
+        margin-left: 500px; 
+        margin-top: 22.5px; 
+      }
+      .form{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 30rem;
+        height: 3.2rem;
+      }
+      .input{
+        width: 90%;
+        height: 95%;
+        outline: none;
+        z-index: 1000;
+        background-color: var(--white);
+        border: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-left: 10px;
+      }
+} */
+@media (min-witdh: 1200px) and (max-witdh: 1679px) {
+    html{
+        font-size: 8px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .Search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .header-navbar{
+        margin-left: 20px;
+      }
+      .searchForm{
+        margin-left: 500px; /* gonna responsive*/
+        margin-top: 22.5px; 
+      }
+      .form{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 30rem; /*gonna responsive*/
+        height: 3.2rem;
+      }
+      .input{
+        width: 90%;
+        height: 95%;
+        outline: none;
+        z-index: 1000;
+        background-color: var(--white);
+        border: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding-left: 10px;
+      }
+}
+/* @media (min-witdh: 920px) and (max-witdh: 1199px){
+    html{
+        font-size: 9px;
+    }
+    body{
+        
+    }
+}
+@media (min-witdh: 680px) and (max-witdh: 919px){
+    html{
+        font-size: 1px;
+    }
+}
+@media (min-witdh: 480px) and (max-witdh: 679px){
+    
+}
+@media (max-witdh: 479px){
+    
+} */

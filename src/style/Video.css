@@ -1,0 +1,128 @@
+.App{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.VideoLink{
+    display: flex;
+    width: 100%;
+}
+/* main video */
+.videoDetails{
+    width: 80%;
+    margin: 20px 0px 20px 20px;
+}
+.videoDetails .youVideo{
+    width: 100%;
+    height: 600px;
+}
+.videoDetails .youVideo .player{
+    height: 100%;
+}
+.videoDetails .youVideo .player div{
+    width: 100%;
+}
+.videoDetails .youVideo .player div iframe{
+    width: 100%;
+}
+.videoDetails .youVideo .videoName{
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.videoDetails .youVideo a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem
+}
+.videoDetails .youVideo a:hover{
+  color: red;
+}
+.videoDetails .youVideo a div{
+ 
+}
+.bottomContent{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+.viewLike{
+  display: flex;
+  width: 50%;
+}
+.viewers{
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+}
+.likes{
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+}
+/* Other Videos */
+.videoDetails .otherVideos{
+    width: 30%;
+}
+.videoDetails .otherVideos .video-con{
+    width: 100%;
+}
+
+nav{
+
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  flex-wrap: wrap;
+  list-style: none;
+  /* width:20%; */
+  margin: 20px 20px 40px 40px;
+}
+.videoCard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* video img */
+.videoCard .videoImage{
+
+}
+.videoCard .videoImage a{
+  text-decoration: none;
+  
+}
+.videoCard .videoImage a img{
+  width: 100%;
+}
+/* video name */
+.videoContent{
+
+}
+.videoContent a{
+  text-decoration: none;
+ 
+}
+.videoContent a div{
+  color: var(--white);
+  font-size: 1.6rem;
+  margin: 5px 0;
+}
+.videoContent a div:hover{
+  color: var(--red);
+}
+/* channel name */
+.videoContent .channelContent{
+}
+.videoContent .channelContent a{
+}
+.videoContent .channelContent a .channelTitle{
+}
